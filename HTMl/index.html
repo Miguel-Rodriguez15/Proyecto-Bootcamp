@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenido(a) a nuestro paraíso turístico</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>¡Bienvenido(a) a nuestro paraíso turístico!</h1>
+
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Nuestro equipo</a>
+        <a href="#">Contacto</a>
+      </nav>
+      <form action="" method="get">
+        <input type="search" name="search" placeholder="Buscar" id="search" />
+        <button type="submit">Buscar</button>
+      </form>
+    </header>
+
+    <main>
+      <h1>Nuevas atracciones</h1>
+      <section>
+        <p>
+          Ven y disfruta de unas increíbles experiencias con corales a las
+          orillas de nuestras hermosas playas. Podrás nadar con peces pequeños y
+          bucear con nuestro equipo para que conozcas las ballenas.
+        </p>
+        <picture>
+          <img
+            src="https://topbuceo.net/wp-content/uploads/2020/04/bucear-con-ballenas-jorobadas.jpg"
+            alt="Buceo con ballenas jorobadas"
+          />
+        </picture>
+
+        <p>
+          ¿Te gustaría experimentar la sensación de volar como un pájaro y
+          contemplar desde las alturas paisajes espectaculares? Entonces, el
+          parapente es la actividad que estás buscando.
+        </p>
+        <picture>
+          <img
+            src="https://s1.wklcdn.com/image_155/4663368/109460593/70611295.700x525.jpg"
+            alt=""
+          />
+        </picture>
+
+        <p>
+          ¿Alguna vez has soñado con caminar por paisajes impresionantes y
+          respirar aire fresco mientras exploras la naturaleza en su estado más
+          puro? Si la respuesta es sí, entonces un plan de trekking en montañas
+          es la experiencia que necesitas para hacer realidad ese sueño.
+        </p>
+        <picture>
+          <img
+            src="https://elcomercio.pe/resizer/3Q2--PhXw-jBxng_67kCNu26JTY=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/GK5J2WQIGBH2FJEQMEGZXJG5IQ.jpg"
+            alt=""
+          />
+        </picture>
+        <p>
+          Si estás buscando una forma emocionante de disfrutar del agua, el
+          Kayak es la actividad perfecta para ti. Además, es una manera
+          increíblemente divertida y saludable de explorar el medio ambiente
+          natural, sin importar si eres un principiante o un experto.
+        </p>
+        <picture>
+          <img
+            src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0e/f6/03/80.jpg"
+            alt=""
+          />
+        </picture>
+      </section>
+    </main>
+    <h1>Ven y conoce nuestro equipo</h1>
+    <section>
+      <h2>Hola soy luis y sere tu instructor de buseo</h2>
+      <picture>
+        <img
+          src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_330/https://www.entornoturistico.com/wp-content/uploads/2016/06/prestador-de-servicios-turisticos-640x330.jpg"
+        />
+      </picture>
+      <h2>Hola soy luis y sere tu instructor de buseo</h2>
+      <picture>
+        <img
+          src="https://lbdivingkohtao.com/wp-content/uploads/2019/08/128580054_309794620148430_6167379499670004186_n.jpg"
+        />
+      </picture>
+
+      <h2>Hola soy camilo y sere tu instructor de parapente</h2>
+      <picture>
+        <img
+          src="https://ss-static-01.esmsv.com/id/155845/galeriaimagenes/obtenerimagen/?id=99&tipoEscala=crop&width=470&height=353"
+        />
+      </picture>
+      <h2>Hola sou ana y sere tu instructor de trekking</h2>
+      <picture>
+        <img
+          src="https://www.superprof.es/imagenes/anuncios/profesor-home-estudiante-guia-trekking-liderazgo-busca-extranjeros-esten-interesados-aprender-espanol-mediante-juego.jpg"
+        />
+      </picture>
+      <h2>Hola soy juan y sere tu instructora de Kayak</h2>
+      <picture>
+        <img
+          src="https://www.superprof.es/imagenes/anuncios/profesor-home-estudiante-educacion-fisica-curso-rescate-hace-clases-kayak-stand-anos-agua.jpg"
+        />
+      </picture>
+    </section>
+
+    <form action="" method="post">
+      <h2>Regálanos tus datos para elegir el mejor plan para ti</h2>
+      <fieldset>
+        <legend>¿Tienes niños?</legend>
+        <input type="radio" name="children_si" value="Sí" id="children_si" />
+        <label for="si">Si</label>
+        <input type="radio" name="children_no" value="No" id="children_no" />
+        <label for="no">No</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Cantidad de personas que vienen contigo</legend>
+        <input
+          type="number"
+          name="persons"
+          value="1"
+          max="15"
+          min="1"
+          id="persons"
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Correo electrónico</legend>
+        <input type="email" name="correo" required id="correo" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Teléfono</legend>
+        <input type="tel" name="phone" required id="phone" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Fecha en la que deseas visitarnos</legend>
+        <input
+          type="datetime-local"
+          name="visit_date"
+          required
+          id="visit_date"
+        />
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+      <p>&copy; 2023 de Nadie. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
