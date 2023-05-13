@@ -15,15 +15,15 @@
       </picture>
 
       <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Nuevas atracciones</a>
-        <a href="#">Nuestro equipo</a>
-        <a href="#">Contacto</a>
+        <a href="#Inicio">Inicio</a>
+        <a href="#nuevasAtracciones">Nuevas atracciones</a>
+        <a href="#nuestroEquipo">Nuestro equipo</a>
+        <a href="#Footer">Contacto</a>
       </nav>
     </header>
 
     <main>
-      <section class="inicio">
+      <section class="inicio" id="Inicio">
         <h1 class="titulo-inicio">
           ¡Bienvenido(a) a nuestro paraíso turístico!
         </h1>
@@ -52,11 +52,10 @@
           <h2 class="titulos">+ 12 Guias Bilingues</h2>
         </article>
       </section>
-    <!--<h2>Nuevas atracciones</h2>-->
-      <section class="section1">
-        
+      <!--<h2>Nuevas atracciones</h2>-->
+      <section class="section1" id="nuevasAtracciones">
         <article class="article-1 article-cuadro">
-          <p>
+          <p class="texto">
             Ven y disfruta de unas increíbles experiencias con corales a las
             orillas de nuestras hermosas playas. Podrás nadar con peces pequeños
             y bucear con nuestro equipo para que conozcas las ballenas.
@@ -70,7 +69,7 @@
           </picture>
         </article>
         <article class="article-1 article-cuadro">
-          <p>
+          <p class="texto">
             ¿Te gustaría experimentar la sensación de volar como un pájaro y
             contemplar desde las alturas paisajes espectaculares? Entonces, el
             parapente es la actividad que estás buscando.
@@ -80,7 +79,7 @@
           </picture>
         </article>
         <article class="article-1 article-cuadro">
-          <p>
+          <p class="texto">
             ¿Alguna vez has soñado con caminar por paisajes impresionantes y
             respirar aire fresco mientras exploras la naturaleza en su estado
             más puro? Si la respuesta es sí, entonces un plan de trekking en
@@ -92,7 +91,7 @@
           </picture>
         </article>
         <article class="article-1 article-cuadro">
-          <p>
+          <p class="texto">
             Si estás buscando una forma emocionante de disfrutar del agua, el
             Kayak es la actividad perfecta para ti. Además, es una manera
             increíblemente divertida y saludable de explorar el medio ambiente
@@ -104,7 +103,7 @@
         </article>
       </section>
     </main>
-    <section class="seccion0">
+    <section class="seccion0" id="nuestroEquipo">
       <h2 class="titulos">Nuestro equipo</h2>
     </section>
     <section class="seccion-equipo">
@@ -112,31 +111,31 @@
     </section>
     <section class="section1">
       <article class="article-1 article-cuadro">
-        <h2>Andrez Gonzales: Guia turistico</h2>
+        <h2 class="titulos">Andrez Gonzales: Guia turistico</h2>
         <picture>
           <img class="mi-imagen" src="/IMG/Guia turistico.jpg" />
         </picture>
       </article>
       <article class="article-2 article-cuadro">
-        <h2>Luis Camarago: Instructo de buseo</h2>
+        <h2 class="titulos">Luis Camarago: Instructo de buseo</h2>
         <picture>
           <img class="mi-imagen" src="/IMG/profesor de buceo.jpg" />
         </picture>
       </article>
       <article class="article-3 article-cuadro">
-        <h2>camilo Regino: Instructor de parapente</h2>
+        <h2 class="titulos">camilo Regino: Instructor de parapente</h2>
         <picture>
           <img class="mi-imagen" src="/IMG/profesor de parapente.png" />
         </picture>
       </article>
       <article class="article-4 article-cuadro">
-        <h2>ana Rodriguez: Instructora de trekking</h2>
+        <h2 class="titulos">ana Rodriguez: Instructora de trekking</h2>
         <picture>
           <img class="mi-imagen" src="/IMG/profesora de trekking.jpg" />
         </picture>
       </article>
       <article class="article-1 article-cuadro">
-        <h2>Hola soy juan y sere tu instructor de Kayak</h2>
+        <h2 class="titulos">Hola soy juan y sere tu instructor de Kayak</h2>
         <picture>
           <img class="mi-imagen" src="/IMG/profesor de Kayak.jpg" />
         </picture>
@@ -150,7 +149,7 @@
       <article class="article-1 article-cuadro">
         <picture>
           <img class="mi-imagen" src="/IMG/experiencia-parapente.jpg" alt="" />
-          <p>
+          <p class="texto">
             Hola soy fernando y mi experiencia en parapente fue uno de mis
             sueños cumplidos ame tanto esta experiencia que dedicidi dedicarme
             de manera profesional
@@ -160,7 +159,7 @@
       <article class="article-1 article-cuadro">
         <picture>
           <img class="mi-imagen" src="/IMG/pareja.jpg" alt="" />
-          <p>
+          <p class="texto">
             Hola somos luisa y cristian decidimos que nuestra luna de miel debia
             ser en este lugar y podemos decir que son las mejores vacaciones de
             nuestras vidas
@@ -171,7 +170,7 @@
       <article class="article-1 article-cuadro">
         <picture>
           <img class="mi-imagen" src="/IMG/buceo.jpg" alt="" />
-          <p>
+          <p class="texto">
             Hola soy David y mi experiencia en buseo fue algo impresionate, fue
             Todo un sueño cumplido lo volveria hacer todos los dias de mi vida
           </p></picture
@@ -180,18 +179,31 @@
     </section>
     <section class="form-register">
       <form action="" method="post">
-        <h4>Regálanos tus datos para elegir el mejor plan para ti</h4>
+        <h4 class="titulos">
+          Regálanos tus datos para elegir el mejor plan para ti
+        </h4>
         <fieldset class="seccion0">
-          <legend >¿Tienes niños?</legend>
-          <input  type="radio" name="children_si" value="Sí" id="children_si" />
-          <label for="si">Si</label>
-          <input type="radio" name="children_no" value="No" id="children_no" />
-          <label for="no">No</label>
+          <legend>¿Tienes niños?</legend>
+          <input
+            class="boton"
+            type="button"
+            name="children_si"
+            value="Sí"
+            id="children_si"
+          />
+          <input
+            class="boton"
+            type="button"
+            name="children_no"
+            value="No"
+            id="children_no"
+          />
         </fieldset>
 
         <fieldset>
           <legend>Cantidad de personas que vienen contigo</legend>
-          <input class="campo-input"
+          <input
+            class="campo-input"
             type="number"
             name="persons"
             value="1"
@@ -203,17 +215,30 @@
 
         <fieldset>
           <legend>Correo electrónico</legend>
-          <input class="campo-input" type="email" name="correo" required id="correo" />
+          <input
+            class="campo-input"
+            type="email"
+            name="correo"
+            required
+            id="correo"
+          />
         </fieldset>
 
         <fieldset>
           <legend>Teléfono</legend>
-          <input class="campo-input" type="tel" name="phone" required id="phone" />
+          <input
+            class="campo-input"
+            type="tel"
+            name="phone"
+            required
+            id="phone"
+          />
         </fieldset>
 
         <fieldset>
           <legend>Fecha en la que deseas visitarnos</legend>
-          <input class="campo-input"
+          <input
+            class="campo-input"
             type="datetime-local"
             name="visit_date"
             required
@@ -221,12 +246,17 @@
           />
         </fieldset>
 
-        <button class="boton"type="submit">Enviar</button>
+        <button class="boton" type="submit">Enviar</button>
       </form>
     </section>
 
     <footer id="Footer">
       <p>&copy; 2023 de Nadie. Todos los derechos reservados.</p>
+      <span class="footer-social-icons">
+        <a href="" class="fab fa-facebook-f"></a>
+        <a href="" class="fab fa-instagram"></a>
+        <a href=""class="fab fa-whatsapp"></a>
+      </span>
     </footer>
   </body>
 </html>

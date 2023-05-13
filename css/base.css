@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+  
+  
+  }
+  
+  .titulos {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+.texto{
+    font-family: 'Montserrat', sans-serif;
+   color: white;
+}  

@@ -1,0 +1,27 @@
+/* Estilos para la sección 0 */
+.seccion0 {
+    background-color: #41c1f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .article-Seccion0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .imagen-seccion0 {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .article-Seccion0 {
+      flex-direction: row;
+    }
+  }

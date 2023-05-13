@@ -1,0 +1,17 @@
+.seccion-equipo {
+    background: url("/IMG/quipo\ de\ trabajo.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    padding: 30px;
+    margin: 2px 8px 0px 8px
+  }
+  
+  .titulo-equipo {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

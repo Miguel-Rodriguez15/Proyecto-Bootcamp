@@ -1,0 +1,29 @@
+/* Estilos para pantallas grandes */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #41c1f4;
+  }
+  
+  header > nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 8px 0 0;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    header > nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 16px 0;
+    }
+  }

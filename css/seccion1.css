@@ -1,0 +1,25 @@
+/* Estilos para la sección 1 */
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2px;
+    justify-content: space-evenly;
+  }
+  
+  .article-1,
+  .article-2,
+  .article-3,
+  .article-4 {
+    flex-basis: 100%;
+    margin: 10px 0;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .article-1,
+    .article-2,
+    .article-3,
+    .article-4 {
+      flex-basis: 33.33%;
+      margin: 2px 8px 3px 10px;
+    }
+  }
