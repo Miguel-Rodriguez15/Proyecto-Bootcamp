@@ -1,5 +1,6 @@
 /* Estilos para la sección 1 */
 .section1 {
+
     display: flex;
     flex-wrap: wrap;
     margin: -2px;
