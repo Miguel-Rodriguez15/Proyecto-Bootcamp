@@ -1,15 +1,33 @@
 .inicio {
-    background: url("/IMG/playa.jpg") no-repeat center center;
-    background-size: cover;
-    height: 300px;
-    position: relative;
-  }
-  
-  .titulo-inicio {
-    color: #fff;
-    font-size: 32px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  background: url("/IMG/playa.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.titulo-inicio {
+  color: #fff;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.inicio::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.inicio:hover::before {
+  opacity: 1;
+}

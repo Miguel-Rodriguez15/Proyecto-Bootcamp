@@ -10,9 +10,11 @@
   }
   
   .titulos {
+    text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    height: 50px;
   }
 .texto{
     font-family: 'Montserrat', sans-serif;

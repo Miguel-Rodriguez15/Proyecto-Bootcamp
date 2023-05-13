@@ -1,7 +1,7 @@
 .article-cuadro1 {
   padding: 3rem;
   border: 1px solid transparent;
-  border-radius: 30px 30px;
+  border-radius: 12px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   background-image: url(/IMG/bucear-con-ballenas-jorobadas.jpg);
   background-size: cover;
