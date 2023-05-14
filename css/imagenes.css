@@ -1,12 +1,20 @@
 .mi-logo {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
+
+}
+
+.mi-imagen {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .mi-logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    justify-items: center;
   }
-  
-  .mi-imagen {
-    width: 100%;
-    height: auto;
-  }
-  .imagen-ballenas{
-    background-image: url(/IMG/buceo.jpg);
-  }
+}

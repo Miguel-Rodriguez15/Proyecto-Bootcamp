@@ -1,0 +1,22 @@
+#go-to-top {
+    display: inline-block;
+
+    color: #007bff;
+    padding: 10px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+  #go-to-top:hover {
+    background-color: white;
+  }
