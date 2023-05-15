@@ -4,11 +4,15 @@
     box-sizing: border-box;
   }
   body {
-    overflow-x: hidden;
+    max-width: 100%;
+  overflow-x: hidden;
   
   
   }
   
+  html{
+    scroll-behavior: smooth;
+  }
   .titulos {
     text-decoration: none;
     color: white;
