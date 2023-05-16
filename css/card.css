@@ -6,16 +6,13 @@
   background-image: url(/IMG/bucear-con-ballenas-jorobadas.jpg);
   background-size: cover;
   background-position: center;
-  
   margin: 1rem;
+  position: relative;
 }
-
 
 .article-cuadro1:hover p {
   display: flex;
 }
-
-
 
 .article-cuadro1 p {
   display: none;
@@ -23,29 +20,47 @@
   text-align: center;
   font-size: 1.5rem;
   margin-top: 3rem;
+  position: relativa;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  box-sizing: border-box;
 }
+
 .article-cuadro1:hover h2 {
   display: flex;
 }
+
 .article-cuadro1 h2 {
   display: none;
   color: white;
   text-align: center;
   font-size: 1.5rem;
   margin-top: 3rem;
+  position: relativa;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  box-sizing: border-box;
 }
-
 
 @media only screen and (max-width: 600px) {
   .article-cuadro1 {
     width: 100%;
     height: auto;
   }
-  
+
   .article-cuadro1 p {
     font-size: 1rem;
   }
 }
+
 .article-cuadro2{
   background-image: url(/IMG/parapente.jpg);
 }
